@@ -6,7 +6,8 @@ Ce petit outil a pour but de désengorger les favoris des navigateurs et leur r�
 ### Toutes vos participations sont la bienvenue ainsi que vos idées pour rendre ce petit projet basique un véritable outil de tous les jours !!
 
 TO DO LIST :
-- Ajout d'un menu
+- Ajout d'un menu : OK
+- Ajout d'une boucle au menu
 - Ajout d'une condition pour modifier l'entrée
 - Correction des bugs mineurs
 - ET bien d'autres choses pour la suite ...
