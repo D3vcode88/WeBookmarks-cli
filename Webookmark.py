@@ -17,7 +17,12 @@ def ajout():
 
 def main():
     print("Bienvenue sur ton webookmarks")
-    print(ajout())
-    print(affichage())
+    print("add : Ajouter une entrer\nshow : Afficher le tableau\n")
+    choix = input("Option : ")
+    if(choix == "add"):
+        print(ajout())
+    elif(choix == "show"):
+        print(affichage())
+        
 
 main()
