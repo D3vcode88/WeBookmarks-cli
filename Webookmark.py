@@ -5,6 +5,7 @@ User = Query()
 
 
 def affichage():
+    print("Tableau des entrer :")
     for element in donnees:
         print(element)
 
@@ -17,12 +18,15 @@ def ajout():
 
 def main():
     print("Bienvenue sur ton webookmarks")
-    print("add : Ajouter une entrer\nshow : Afficher le tableau\n")
-    choix = input("Option : ")
-    if(choix == "add"):
-        print(ajout())
-    elif(choix == "show"):
-        print(affichage())
-        
+    while True:
+        print("""\n-----------------------------
+add : Ajouter une entrer\nshow : Afficher le tableau
+-----------------------------\n """)
+        choix = input("Option : ")
+        if(choix == "add"):
+            print(ajout())
+        elif(choix == "show"):
+            print(affichage())
+            
 
 main()
