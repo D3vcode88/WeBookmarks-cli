@@ -7,7 +7,7 @@ Ce petit outil a pour but de désengorger les favoris des navigateurs et leur r�
 
 TO DO LIST :
 - Ajout d'un menu : OK
-- Ajout d'une boucle au menu
+- Ajout d'une boucle au menu : OK
 - Ajout d'une condition pour modifier l'entrée
 - Correction des bugs mineurs
 - ET bien d'autres choses pour la suite ...
