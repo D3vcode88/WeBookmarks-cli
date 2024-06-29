@@ -20,13 +20,17 @@ def main():
     print("Bienvenue sur ton webookmarks")
     while True:
         print("""\n-----------------------------
-add : Ajouter une entrer\nshow : Afficher le tableau
+add : Ajouter une entrer\nshow : Afficher le tableau\n q : quitter le programme
 -----------------------------\n """)
         choix = input("Option : ")
         if(choix == "add"):
             print(ajout())
         elif(choix == "show"):
             print(affichage())
+        elif(choix == "q"):
+            print("A très bientôt !")
+            quit()
+            
             
 
 main()
